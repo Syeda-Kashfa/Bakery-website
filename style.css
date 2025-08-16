@@ -1,49 +1,65 @@
-.logo img{
+@font-face {
+    font-family: inter;
+    src: url(Fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    font-family: roboto;
+}
+
+.logo img {
     width: 100px;
 }
-.fnt i{
+
+.fnt i {
     font-size: 20px;
 }
-.Btn{
+
+.Btn {
     background: rgba(132, 221, 214, 0.95);
     color: #fff;
     font-weight: bold;
     border-radius: 30px;
+
 }
-.Btn:hover{
-    background: rgb(252, 156, 172);
-    color: #fff;
-}
-.brt{
+
+.brt {
     filter: brightness(30%);
 }
-.aln{
+
+.aln {
     text-align: start;
     top: 10px;
-    
+
 }
-.aln h1{
+
+.aln h1 {
     font-size: 70px;
     padding-bottom: 30px;
 
 }
-.alN{
+
+.alN {
     top: 10px;
     text-align: center;
 }
-.alN h2{
+
+.alN h2 {
     font-size: 75px;
-    
-    
+
+
 }
-.alN p{
+
+.alN p {
     font-size: 30px;
-   
+
 }
-.aln p{
+
+.aln p {
     font-size: 30px;
 }
-.btN{
+
+.btN {
     background: rgba(132, 221, 214, 0.95);
     color: #fff;
     font-weight: bold;
@@ -51,51 +67,61 @@
     width: 180px;
     height: 50px;
     margin-top: 30px;
+    font-size: 20px;
 }
-.pic img{
+
+.pic img {
     width: 250px;
     border-radius: 10px;
-      box-shadow:5px 5px 5px 5px rgba(132, 221, 214, 0.95);
+    box-shadow: 5px 5px 5px 5px rgba(132, 221, 214, 0.95);
 }
-.pic{
+
+.pic {
     border: none;
 }
-.Txt h1{
+
+.Txt h1 {
     font-size: 70px;
     text-align: center;
     font-weight: bold;
 }
-.crd{
+
+.crd {
     text-align: center;
 }
 
-.BtN:hover{
+.BtN:hover {
     background: rgb(252, 156, 172);
-    color: #fff;}
-.cd{
+    color: #fff;
+}
+
+.cd {
     width: 100%;
     height: 550px;
     background: rgba(132, 221, 214, 0.95);
 }
-.bdr{
-     background: rgba(132, 221, 214, 0.95);
-     border: 2px solid #fff;
-     align-items: center;
-     height: 400px;
-     width: 70%;
+
+.bdr {
+    background: rgba(132, 221, 214, 0.95);
+    border: 2px solid #fff;
+    align-items: center;
+    height: 400px;
+    width: 70%;
 }
 
-.head h1{
+.head h1 {
     font-size: 50px;
     color: #fff;
     font-weight: bold;
-    
+
 }
-.head p{
+
+.head p {
     color: #fff;
     font-size: 15px;
 }
-.btn1{
+
+.btn1 {
     background: rgba(132, 221, 214, 0.95);
     color: #fff;
     font-weight: bold;
@@ -105,83 +131,105 @@
     width: 200px;
     height: 50px;
 }
-.btn:hover{
+
+.btn:hover {
     background: #fff;
     color: #000000a8
-
 }
-.pic1 img{
+
+.pic1 img {
     width: 250px;
     border-radius: 10px;
-     box-shadow:5px 5px 5px 5px rgb(252, 156, 172);
+    box-shadow: 5px 5px 5px 5px rgb(252, 156, 172);
 }
-.pic1{
+
+.pic1 {
     border: none;
 }
-.bag1{
-   background: #e7e3e3aa;
+
+.bag1 {
+    background: #e7e3e3aa;
 }
-.bdr{
-     background: rgba(132, 221, 214, 0.95);
-     border: 2px solid #fff;
-     align-items: center;
-    
+
+.bdr {
+    background: rgba(132, 221, 214, 0.95);
+    border: 2px solid #fff;
+    align-items: center;
+
 }
-.fnnt{
+
+.fnnt {
     font-size: 80px;
     margin-top: 20px;
 
 }
-.bdR{
+
+.bdR {
     border: none;
     background: #e7e3e35c;
 }
-.ingrdnt h1{
+
+.ingrdnt h1 {
     font-size: 50px;
     font-weight: bold;
 }
+
 .dnts {
     font-size: 22px;
     font-weight: bold;
 }
-.ingrdnt p{
+
+.ingrdnt p {
     font-size: 20px;
 }
-.ingrdnt img{
+
+.ingrdnt img {
     border-radius: 50%;
     width: 100px;
-    box-shadow:5px 5px 5px 5px rgb(252, 156, 172);
+    box-shadow: 5px 5px 5px 5px rgb(252, 156, 172);
 }
-.clr{
+
+.clr {
     background: rgb(252, 156, 172);
     justify-content: center;
     display: flex;
 }
-.rev{
+
+.rev {
     width: 70%;
-  }
-  .rew{
-      margin-top: 50px;
+}
+
+.rew {
+    margin-top: 50px;
     color: #fff;
-     background: rgb(252, 156, 172);
-  }
+    background: rgb(252, 156, 172);
+}
+
 imG {
     width: 80px;
-   
-    
+
+
 }
-.rew{
+
+.rew {
     border: none;
 
 }
-.Prc h1{
+
+.etc {
+    color: #00000070;
+}
+
+.Prc h1 {
     font-weight: bold;
     font-size: 45px;
 }
-.pric{
+
+.pric {
     color: #00000070;
     font-weight: bold;
 }
+
 .prc {
     font-size: 20px;
     text-align: center;
@@ -189,12 +237,14 @@ imG {
     height: 80px;
     align-items: center;
     color: #000000b3;
-   
+
 }
-.pricE{
+
+.pricE {
     margin-top: 50px;
 }
-.que{
+
+.que {
     background: #00000011;
     height: 300px;
     margin-top: 100px;
@@ -202,51 +252,64 @@ imG {
     padding-top: 30px;
     padding-left: 40px;
 }
-.que h1{
+
+.que h1 {
     font-size: 28px;
     text-align: center;
     padding-bottom: 30px;
 }
-.que p{
+
+.que p {
     font-size: 18px;
     color: rgba(132, 221, 214, 0.986);
     font-weight: bold;
 }
-.get{
-    font-size: 70px;
+
+.get {
+    font-size: 60px;
     font-weight: bold;
     padding-top: 40px;
 
 }
-.fotr img{
+
+.fotr {
+    border-radius: 0px;
+}
+
+.fotr img {
     height: 550px;
     filter: brightness(20%);
 }
-.fotrinp{
-  height: 300px;
-  
-  
+
+.fotrinp {
+    height: 300px;
+
+
 }
-.inpt{
+
+.inpt {
     display: flex;
     justify-content: end;
 }
-.inpt input{
+
+.inpt input {
     background-color: transparent;
     color: white;
     width: 300px;
-   height: 60px;
-   border-radius: 30px;
+    height: 60px;
+    border-radius: 30px;
 
 
 }
+
 .inpt input::placeholder {
     color: #ffffffbd;
     font-size: 20px;
     font-weight: bold;
 }
-.ftrbtn button{
-     background: rgba(132, 221, 214, 0.95);
+
+.ftrbtn button {
+    background: rgba(132, 221, 214, 0.95);
     color: #fff;
     font-weight: bold;
     border-radius: 30px;
@@ -255,71 +318,154 @@ imG {
     width: 200px;
     font-size: 20px;
     height: 60px;
+
 }
-.icn{
+
+.icn {
     justify-content: center;
     display: flex;
     gap: 10px;
-   
-   
+
+
 }
-.icn a{
+
+.icn a {
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
-border-radius: 50%;
-display: flex;
-align-items: center;
-text-decoration: none;
-padding-left: 5px;
-}
-.icn i{
-    font-size: 30px;
-   
-    
-}
-    @media screen and (max-width:600px){
-        .aln h1{
-    font-size: 40px;}
-.Txt h1{
-    font-size: 40px;
-   
-}
-.fnt i{
-    font-size: 50px;
-    align-items: center;
-    margin-top: 20px;
-
-}
-.head h1{
-    font-size: 25px;
-    color: #fff;
-    font-weight: bold;
-}
-.head p{
-    color: #fff;
-    font-size: 14px;
-}
-.btn1{
-    width: 100px;
-    height: 30px;
-    font-size: 10px;
-    margin-top: 10px;
-}
-.ingrdnt h1{
-    font-size: 30px;
-    font-weight: bold;
-}
-.get{
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 40px;
-
-}
-.inpt{
+    border: 2px solid #ffffffa5;
+    border-radius: 50%;
     display: flex;
-    justify-content: start;
-    padding-top: 40px;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 5px;
+    filter: brightness(20%);
+
 }
-        
- }
+
+.icn a:hover {
+    border: 2px solid #ffffff;
+    filter: brightness(100%);
+}
+
+.icn i {
+    font-size: 30px;
+
+
+}
+
+footer {
+    color: #fff;
+    background: #000;
+}
+
+.ftr {
+    padding-left: 5px;
+}
+
+.ftr li a {
+    color: #FFF;
+    font-size: 18px;
+
+
+}
+
+.ftrbtN button {
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    width: 160px;
+    font-size: 20px;
+    height: 40px;
+    background: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.fotR img {
+    margin-left: 80px;
+
+}
+
+@media screen and (max-width:600px) {
+    .aln h1 {
+        font-size: 40px;
+    }
+
+    .Txt h1 {
+        font-size: 40px;
+
+    }
+
+    .fnt i {
+        font-size: 50px;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .head h1 {
+        font-size: 25px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .head p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .btn1 {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .ingrdnt h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .get {
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 10px;
+
+    }
+
+    .inpt {
+        display: flex;
+        justify-content: start;
+        padding-top: 40px;
+    }
+
+    .inpt input {
+        background-color: transparent;
+        color: white;
+        width: 220px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 18px;
+
+
+    }
+
+    .ftrbtn button {
+        background: rgba(132, 221, 214, 0.95);
+        color: #fff;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 2px solid #fff;
+        margin-top: 20px;
+        width: 120px;
+        font-size: 18px;
+        height: 50px;
+
+    }
+}
