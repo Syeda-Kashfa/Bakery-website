@@ -212,12 +212,73 @@ imG {
     color: rgba(132, 221, 214, 0.986);
     font-weight: bold;
 }
+.get{
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 40px;
+
+}
 .fotr img{
-    height: 500px;
+    height: 550px;
     filter: brightness(20%);
 }
-    @media screen and (max-width:600px)
-    {
+.fotrinp{
+  height: 300px;
+  
+  
+}
+.inpt{
+    display: flex;
+    justify-content: end;
+}
+.inpt input{
+    background-color: transparent;
+    color: white;
+    width: 300px;
+   height: 60px;
+   border-radius: 30px;
+
+
+}
+.inpt input::placeholder {
+    color: #ffffffbd;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ftrbtn button{
+     background: rgba(132, 221, 214, 0.95);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+    height: 60px;
+}
+.icn{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+   
+   
+}
+.icn a{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+border-radius: 50%;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding-left: 5px;
+}
+.icn i{
+    font-size: 30px;
+   
+    
+}
+    @media screen and (max-width:600px){
         .aln h1{
     font-size: 40px;}
 .Txt h1{
@@ -248,6 +309,17 @@ imG {
 .ingrdnt h1{
     font-size: 30px;
     font-weight: bold;
+}
+.get{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+
+}
+.inpt{
+    display: flex;
+    justify-content: start;
+    padding-top: 40px;
 }
         
  }
